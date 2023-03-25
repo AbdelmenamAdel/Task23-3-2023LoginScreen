@@ -5,7 +5,7 @@ class LoginScreen extends StatelessWidget {
   //const LoginScreen({Key? key}) : super(key: key);
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  bool _obscurePassword = true;
+  final bool _obscurePassword = true;
 
   LoginScreen({super.key});
 
